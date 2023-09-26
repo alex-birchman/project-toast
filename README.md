@@ -1,6 +1,6 @@
-# Toast Component Project
+# Toast Component Project | [Demo](https://alex-birchman.github.io/project-toast/)
 
-## Joy of React, Project II
+## Joy of React, Project II 
 
 In this project, we'll dive deep into the implementation of a single common UI component: A `<Toast>` message component.
 
