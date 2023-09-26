@@ -20,13 +20,18 @@ function ToastProvider({ children }) {
         ]);
     }, []);
 
+    const dismissAllToasts = React.useCallback(() => {
+        setToasts([]);
+    }, []);
+
     const value = React.useMemo(
         () => ({
             toasts,
             createNewToast,
             dismissToast,
+            dismissAllToasts,
         }),
-        [toasts, createNewToast, dismissToast]
+        [toasts, createNewToast, dismissToast, dismissAllToasts]
     );
 
     return (
